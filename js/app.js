@@ -9,7 +9,7 @@ angular.module('TodoApp').config(function($locationProvider, $routeProvider){
 	})
 
 	.when('/accounts/register', {
-		tempklateUrl: 'templates/register.html',
-		controleler: 'RegisterController'
+		templateUrl: 'templates/register.html',
+		controller: 'RegisterController'
 	});
 });
